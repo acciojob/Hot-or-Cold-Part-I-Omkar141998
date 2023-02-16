@@ -4,8 +4,8 @@ var numPtag = document.getElementById("num");
 var res = document.getElementById("respond");
 var inputValue = document.getElementById("guess").value;
 
-function randomNumberGenerator(){
-	randomNumber = Math.floar(Math.random() * 41) - 20;
+function randomNumberGenerator() {
+	randomNumber = Math.floor(Math.random() * 41) - 20;
 	document.getElementById("num").innerText = randomNumber;
 	guessNumber();
 	printValue();
