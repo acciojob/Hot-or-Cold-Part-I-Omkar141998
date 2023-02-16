@@ -22,5 +22,5 @@ function print () {
 	}
 	
 }
-btn.addEventListener("click" randomNumGenerator);
+btn.addEventListener("click", randomNumGenerator);
 
